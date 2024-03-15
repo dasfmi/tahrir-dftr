@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+blockquote {
+    @apply border-r-4 border-blue-300 pr-4 bg-blue-50 italic;
+}
+
+blockquote p {
+    @apply py-1;
+}
+
+.split-editor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.split-editor:has(.milkdown-split-editor.hidden) {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.milkdown-split-editor.hidden {
+  display: none;
+}
