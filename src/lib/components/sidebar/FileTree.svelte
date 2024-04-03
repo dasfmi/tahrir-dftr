@@ -18,10 +18,10 @@
       class={`items-start text-start hover:bg-gray-400/20 hover:text-gray-950 w-full ${$activeFileIndex === index ? "bg-gray-200" : ""} `}
     >
       <button
-        class="inline-flex px-4 py-1 w-full text-start items-center text-sm"
+        class="inline-flex px-4 py-1 w-full text-start items-center text-sm gap-3"
         on:click={() => handleFileSelected(index)}
       >
-        <span class="w-4 text-red-400"><FileIcon /></span>
+        <span class="w-3 text-gray-500"><FileIcon /></span>
         {file.name}
       </button>
     </div>

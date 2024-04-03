@@ -26,7 +26,9 @@
 
     <section class="w-1/2 flex flex-col">
       <h1 class="text-xl text-gray-800">المميزات</h1>
-      <p class="text-lg mt-4 text-gray-500">اُكتب العربية من اليمين لليسار دون عناء</p>
+      <p class="text-lg mt-4 text-gray-500">
+        اُكتب العربية من اليمين لليسار دون عناء
+      </p>
     </section>
   </div>
 </div>
