@@ -1,11 +1,11 @@
 <script lang="ts">
-  import Editor from "./lib/Editor.svelte";
+  import Editor from "./lib/editor/Editor.svelte";
 </script>
 
 <svelte:head>
-  <title>تحرير</title>
+  <title>دفتر</title>
 </svelte:head>
 
-<main>
+<main class="h-screen flex flex-col">
   <Editor />
 </main>
